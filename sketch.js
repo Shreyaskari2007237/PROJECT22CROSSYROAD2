@@ -27,7 +27,7 @@ road.shapeColor="black";
 bottomGrass1.shapeColor="grey"; 
 }
    
-player=new Player(width/2,height-25);
+
 
 for(var i=0;i<40;i++){
   cars=new Car(2);
@@ -38,6 +38,7 @@ for(var i=0;i<40;i++){
   logGroup1.add(log.spt);
 
 }
+ player=new Player(width/2,height-25);
  }
 
 function draw() {
